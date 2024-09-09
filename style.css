@@ -19,6 +19,7 @@ body {
 #app {
     display: grid;
     justify-content: center;
+    margin: auto;
 
     padding: 7.2rem 10.4rem;
 }
@@ -117,7 +118,7 @@ header {
     }
 }
 
-@media (width < 85rem){
+@media (min-width: 769px) and (max-width: 1024px){
 
     #app {
         padding-top: 7.2rem;
@@ -150,7 +151,7 @@ header {
     }
 }
 
-@media (width < 48rem) {
+@media (max-width: 768px) {
     header h1 {
         font-weight: 900;
         font-size: 3.1rem;
